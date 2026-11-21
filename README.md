@@ -85,6 +85,13 @@ frame request, the app answers with a frame, the daemon reports presented or
 dropped. The wire protocol is documented on the device at
 /usr/share/lapis-hwserviced/app-window/protocol-v1.json.
 
+## The screen protocol
+
+If you want to write your own app for this panel, the field notes are in
+[lapis-app-window-notes](https://github.com/JohnLHolloway/lapis-app-window-notes):
+the D-Bus window manager, the LPFW wire format, the pull-based frame cycle, the
+device's font atlases, and a 150-line reference client.
+
 ## Layout
 
 | file | role |
